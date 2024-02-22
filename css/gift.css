@@ -1,0 +1,1166 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------
+以下是EDM 固定樣式  請變更 EDM碼  <body id="edm174">
+--------------------------------------------------------------------*/
+#edm174 .deskver{
+    display: inline-table;
+    
+    }
+#edm174 .mobver{
+    display:none;
+    }
+
+#edm174 .BigTitle{
+    margin: 25px 0 10px 0; 
+}
+
+#edm174 .BigTitle img{
+    vertical-align:text-bottom;
+     width: 100px;
+}
+
+#edm174 .WeSuccess{
+    margin:60px 0 0 0;
+}
+
+
+#edm174 .BigTitle h2 {
+    font-size: 260%;
+    text-align: center;
+    font-weight: bolder;
+    color: #272727;
+    padding-top: 10px;
+    transition: all .5s;
+    position: relative;
+    background-color: #fff;
+    top: 23px;
+    z-index: 2;
+        margin: 0 auto;
+    width:60%;
+}
+
+#edm174 .tw-img-win{
+    display:inline-block; 
+    vertical-align:middle;
+    position: relative;
+    transform: rotate(25deg);
+}
+
+#edm174 .BigTitle h1:hover {
+    color: #747474;
+    cursor:default;
+}
+
+#edm174 .BigTitle hr { 
+    margin-top: 10px; 
+    border: 1px solid #CCCCCC;
+}
+
+/*好禮紅包區塊*/
+.gift-header{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.gift-header h3{
+    font-size: 35px;
+}
+#redbag .card-wrap {
+  overflow: hidden;
+  width: 100%;
+ max-width: 850px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#redbag .tw-card {
+	position:relative;
+  width: 260px;
+  height: 170px;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	-webkit-transform:rotatey(0deg) translatex(0px) translatey(0px);
+	transform:rotatey(0deg) translatex(0px) translatey(0px);
+	-webkit-transition:all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+	transition:all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+	box-shadow:4px 4px 20px rgba(0,0,0,0.2);
+	margin:5px;
+	cursor:pointer;
+  float: left;
+}
+
+#redbag .tw-card.open {
+	width:290px;
+	height:380px;
+	-webkit-transform:rotatey(-180deg) translatex(0px) translatey(0px);
+	transform:rotatey(-180deg) translatex(0px) translatey(0px);
+}
+#redbag .tw-card .front {
+	-webkit-transform:rotateY(0deg) translateZ(2px);
+	transform:rotateY(0deg) translateZ(2px);
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:brown;
+	border:2px white solid;
+	border-radius:5px;
+}
+#redbag .tw-card .front .main-slo {
+  font-family: microsoft yahei;
+      width: 100%;
+      position: absolute;
+      top: 54%;
+      left: 0;
+      font-size: 35px;
+      margin: -35px 0 0 0;
+      text-align: center;
+      color: #ddd;
+      font-weight: bold;
+}
+#redbag .tw-card .front .title {
+  font-family: meiryo;
+	width:100%;
+	position:absolute;
+	top:55%;
+	left:0;
+	text-transform:uppercase;
+	font-size:14px;
+	margin:15px 0 0 0;
+	text-align:center;
+	color:#eee;
+}
+#redbag .tw-card .front .open-it {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.1);
+  width: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  height: 30px;
+  padding-top: 5px;
+  font-weight: 100;
+  font-family: monospace;
+  letter-spacing: 1px
+}
+#redbag .tw-card .front .atomic-mass {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:12px;
+	color:#2980b9;
+}
+#redbag .tw-card .back {
+	-webkit-transform:rotateY(180deg) translateZ(0px);
+	transform:rotateY(180deg) translateZ(0px);
+	/*display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;*/
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-ms-flex-wrap:nowrap;
+	flex-wrap:nowrap;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: brown;
+	border:2px white solid;
+	border-radius:5px;
+	padding:20px;
+	text-align:center;
+	overflow:hidden;
+}
+#redbag .tw-card .back p {
+  color: #eee;
+	font-size:15px;
+	margin:0;
+  text-align: left;
+  letter-spacing: 0;
+  padding-top: 10px;
+  font-family: meiryo;
+
+}
+#redbag .tw-card .back a.btn {
+	display:inline-block;
+	background-color:white;
+	padding:5px 15px;
+	margin:20px 0 0 0;
+	color:#eee;
+	background-color:#3498db;
+	text-decoration:none;
+	border-radius:3px;
+}
+#redbag .tw-card .back a.btn:hover,.tw-card .back a.btn:focus {
+	color:#fff;
+	background-color:#2980b9;
+}
+#redbag .tw-card .front .main-slo span {
+  font-family: impact;
+      color: brown;
+      display: inline-block;
+      line-height: 30px;
+      width: 30px;
+      border-radius: 100px;
+      font-size: 22px;
+      background-color: #ddd;
+      top: -4px;
+      left: 3px;
+      position: relative;
+      font-weight: 100;
+}
+#redbag .back h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e3d581;
+  border: 1px solid;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+#redbag .tw-card:nth-child(1) .des-img {
+  position: relative;
+  bottom: -10px;
+  max-width: 200px;
+  margin: 30px auto
+}
+#redbag .tw-card:nth-child(2) .des-img {
+    position: relative;
+    bottom: -10px;
+    max-width: 200px;
+    margin: 30px auto
+}
+#redbag .tw-card:nth-child(3) .des-img {
+    position: relative;
+    bottom: 10px;
+    max-width: 200px;
+    margin: 30px auto
+}
+#redbag .tw-card:nth-child(3) a{
+    color: #fff;
+    padding-top: 10px;
+    display: block;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 900px) {
+#redbag .card-wrap {
+  overflow: hidden;
+  width: 100%;
+ max-width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#redbag .tw-card {
+	position:relative;
+  width: 260px;
+  height: 170px;
+	
+  float: none;
+}
+}
+/*好禮紅包區塊EDN*/
+
+#edm174 article {
+    line-height: 1.5;
+	letter-spacing: 2px;
+}
+#edm174 article h1 p {
+	font-size: 275%;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	padding-top: 10px;
+}
+#edm174 article h2 .fa-2 {
+	font-size: 2.5em; /*標頭符號 大小需調整  符號語法取得http://fortawesome.github.io/Font-Awesome/icons/*/
+}
+#edm174 article h2 span {
+    color: #b13f38;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#edm174 article h2 {
+	margin-top: 20px;
+}
+#edm174 article h2 .h2_dorber {
+	width: 200px;
+	border-bottom: 2px dashed #59493f;
+	display: inline-block;
+}
+
+#edm174 article h2 .h2_block2 {
+	width: auto;
+	border-bottom: 2px dashed #59493f;
+	display: inline-block;
+}
+
+#edm174 article .h3_font2 {
+	color: #000;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+#edm174 article h1 .h1_hr {
+	margin-top: 10px;
+}
+#edm174 article hr {
+	border: 1px solid #CCCCCC;
+	margin-top: 60px;
+}
+#edm174 article hr.hr_color {
+	border: 1px solid #59493f;
+	margin-top: 70px;
+}
+#edm174 article h2 .h2_dorber2 {
+	max-width: 100%;
+	width: 100%;
+	text-align: -webkit-center;
+}
+#edm174 article h2 .h2_dorber2 p {
+	color: #59493f;
+	font-weight: bold;
+	text-align: center;
+	width: 90%;
+	border-bottom: 2px dashed #59493f;
+}
+#edm174 article .h3_font2 span {
+	font-size: 15px;
+	margin-left: 20px;
+}
+/*--------------------------------------------------------------------
+以下是屬於 #edm174
+--------------------------------------------------------------------*/
+#edm174 .t-main{
+    color: #b13f38;
+}
+#edm174 .block1 .h2_dorber{
+    width: 320px;
+}
+#edm174 .banner {
+    background:url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+    color: #fff;
+    
+    /*padding: 5em 0em 5em;*/
+    text-align: center;
+}
+#edm174 .f70{
+    font-size: 85px;
+    letter-spacing: 8px;
+}
+
+#edm174 .banner .left{
+    text-align: left;
+}
+#edm174 .banner .col_pic_r{
+    left: 10px;
+    top:-20px;
+    text-align: left;
+}
+#edm174 .banner .col_pic_l{
+    left: -10px;
+    text-align: right;
+}
+#edm174 .banner .col_pic_l .box{
+    letter-spacing: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#edm174 .banner hr{
+    margin-top: 0;
+    width: 75%;
+}
+#edm174 .t-ye{
+    color: #f0ea46;
+}
+#edm174 .two-col-nofloat{
+    width: 50%;
+    float: left;
+}
+#edm174 .one-col-nofloat {
+  width: 100%;
+}
+#edm174 .reason-box{
+    width: 31.3%;
+    margin: 15px 1%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0 solid;
+    border-radius: 6px;
+    padding: 25px 0;
+    color: #333;
+}
+#edm174 .box {
+    border: 1px solid #ffffff;
+    font-weight: 300;
+	padding: 2px;
+	margin-top: 5px;
+}
+
+#edm174 .boxred {
+    border: 1px solid #b13f38;
+	padding: 1px;
+	margin: 2px;
+}
+.FC_172 {
+	color: #59493f;
+}
+
+#edm174 article .h3_font2 p {
+	margin-top: 20px;
+	line-height: 40px;
+}
+#edm174 .block1 p {
+    line-height: 1.5;
+}
+#edm174 .block1 li {
+   float: left;
+   width: 50%;
+}
+#edm174 .block2 li {
+   float: left;
+   width: 32.2%;
+}
+#edm174 .block1 .innerLi {
+	text-align: center;
+    margin-top: 20px;
+}
+#edm174 .block2 .innerLi .fa {
+    font-size: 300%;
+	margin-bottom: 20px;
+}
+#edm174 .block2 .innerLi2 {
+	text-align:left;
+    margin-top: 25px;
+	margin-left:15px;
+	width:auto;
+}
+#edm174 .block2 .innerLi2 .fa {
+    font-size: 400%;
+	margin-bottom: 20px;
+	width:85%;
+}
+
+#edm174 .innerLi3 {
+	text-align:center;
+	width:300px;
+	float: right;
+	width:85%;
+}
+#edm174 .p-bk-or{
+    background-color:#b13f38;
+    padding: 5px 5px;
+    color: #FFF;
+    border: solid 0;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    margin: 10px auto;
+
+}
+#edm174 .btn-open {
+	width:90%;
+	margin:0 5%;
+}
+#edm174 .btn-open .fa{
+	color: #FFF;
+    margin-right: 10px;
+}
+#edm174 .btn-open table .fa{
+	color: #b13f38;
+    margin-right: 10px;
+}
+
+/*#pagePoint2*/
+
+#edm174 .pagebox {
+	text-align:center;
+	padding:5px 5px;
+	width:60%;
+}
+
+#edm174 .pagePoint2 {
+	padding: 0 0 10px 0;
+  	margin: -10px 0 15px;
+}
+
+#edm174 .pagePoint2 li {
+	float:left;
+	text-align:center;
+	margin:0 5px 5px 0;
+}
+
+#edm174 .pagePoint2 i {
+	margin-right: 5px;
+}
+
+
+#edm174 .pagePoint2 a {
+    color: #FFFFFF;
+    padding: 5px 5px;
+}
+
+/*#edm174 .block2 li span {
+   padding-left: 19px;
+}*/
+#edm174 .block4 {
+    margin: 70px 0;
+}
+#edm174 .exLink-group .fa-external-link {
+	color: #333;
+}
+#edm174 .cdInner {
+	text-align:left;
+	padding: 20px 60px;
+	border: 2px solid #F29001;
+}
+
+#edm174 .countdown {
+    padding: 10px;
+    max-width: 620px;
+    min-width: 510px;
+    margin: 250px auto 8px;
+    background-color: rgba(23, 23, 23, 0.23);
+}
+
+#contents .fa {
+    color: #b13f38;
+}
+
+#contents .banner .fa {
+    color:#FFFFFF;
+}
+#contents .banner .reason-box .fa {
+    color:#b13f38;
+}
+#edm174 .i-main .fa{
+    color: #b13f38;
+}
+#edm174 .edmForm p {
+    width: 90%;
+    color: #59493f;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 30px;
+    border-bottom: 2px dashed #F29001;
+}
+
+#edm174 .oneColWrap {
+    margin: 0 0 10px 0;
+	position:relative;
+}
+
+#edm174 .twoColWrap {
+    padding: 0 80px 0 120px;
+    margin: 30px auto;
+}
+
+
+#edm174 .col-gb-colc{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  font-size :136%;
+}    
+#edm174 .col-dt{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid rgba(0,0,0,0.1);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}    
+
+#edm174 .col-form{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+/*  border: 2px solid rgba(0,0,0,0.1);*/
+  padding-top: 40px;
+  padding-bottom: 30px;
+}    
+
+
+#edm174 .col-dt p{
+padding:15px 70px 0;
+font-size :136%;
+}    
+
+#edm174 .innerLi img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 85%;
+}
+#edm174 .innerLi {
+	text-align: center;
+    margin-top: 30px;
+    width: 33.3%;
+    float: left;
+}
+#edm174 .col_te_l {
+    float: left;
+    width: 25%;
+    position: relative;
+    padding: 0 0 0 20px;
+    margin: 20px 0 0 0 ;
+}
+
+#edm174 .col_te_r {
+    float: left;
+    width: 65%;
+    position: relative;
+padding: 0 0 0 20px;
+        margin: 20px 0 0 0;
+}
+#edm174 .col_pic_l {
+    float: left;
+    width: 34%;
+    padding: 0 50px;
+	position: relative;
+	left: -20px;
+}
+#edm174 .gb_col_pic_l {
+    float: left;
+    width: 24%;
+    padding:0px 20px ;
+   box-sizing: border-box;
+}
+
+#edm174 .gb_col_pic_r {
+    float: left;
+    width: 24%;
+    padding:0px 20px ;
+    box-sizing: border-box;
+}
+
+#edm174 .col_pic_r {
+    float: left;
+    width: 34%;
+    padding: 0 50px;
+    position: relative;
+	left: 20px; 
+}
+
+
+
+
+#edm174 .f32 {
+	font-size: 237%;
+}
+
+#edm174 .f34 {
+	font-size: 266%;
+}
+
+#edm174 .f36 {
+	font-size: 290%;
+}
+#edm174 .red {
+	color: #b13f38;
+}
+
+@media only screen and (max-width: 950px) {
+    #edm174 .gb_col_pic_l {
+    float: left;
+    width: 45%;
+    margin: 20px 0px 30px;
+}    
+    
+ #edm174 .gb_col_pic_r {
+    float: left;
+    width: 45%;
+    margin: 20px 0px 30px;
+}   
+    
+#edm174 .twoColWrap {
+    padding: 0 30px ;
+    margin: 20px 0 0 0 ;
+}
+}
+
+@media only screen and (max-width: 800px) {
+#edm174 .f36 {
+	font-size: 270%;
+}
+
+#edm174 .film {
+	width:60%;
+	margin:15px auto 0;
+}
+
+}
+#edm174 .cleanfix::after {
+	content: ".";
+	height: 0;
+	clear: both;
+	font-size: 0;
+	display: block;
+	visibility: hidden;
+}
+#edm174 .desk-ver{
+    display: block;
+    }
+#edm174 .mob-ver{
+    display: none;
+    }
+#edm174 .block1 #third-table th{
+    width: 25%;
+}
+#edm174 .block1 #third-table td{
+    width: 75%;
+}
+#edm174 .table1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#edm174 .tit-con {
+  margin-top: 30px;
+text-align: center;
+}
+#edm174 .tit-con-img {
+    margin: 10px auto 0 ;
+    width: 100%;
+text-align: center;
+      position: relative;
+    display: inline-block;
+    top:30px;
+}
+#edm174 .tit-con-img img{
+    margin:0 auto ;
+    padding:0 auto;
+    text-align: center;
+}
+#edm174 .tit-con h1 {
+  position: relative;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    top: 18px;
+    width: 150px;
+}
+
+#edm174 .tit-con h2 {
+  position: relative;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bold;
+    top: 23px;
+    width: 70%;
+    z-index: 2;
+}
+
+#edm174 #dt-rwd::after{
+    content:"
+        ";
+    
+}
+
+
+#edm174 .col-4 {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid rgba(0,0,0,0.1);
+    padding:40px 0px 30px 20px;
+    box-sizing: border-box;
+}
+#edm174 .col-4 .col {
+  width: 25%;
+  float: left;
+}
+#edm174 .col-4 .col h2 {
+  font-size: 20px;
+  font-weight: bold;
+      color: #0e303f;
+          margin-top: 10px;
+}
+#edm174 .outa-link {
+  text-align: center;
+      margin-top: 15px;
+      font-size: 18px;
+      color:#b13f38;
+}
+#edm174 .howto {
+  width: 100%;
+    margin: 0 auto;
+    border: 3px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+#edm174 .howto p {
+      padding: 40px;
+}
+#edm174 .vid-con {
+  width: 100%;
+margin: 0 auto;
+border: 3px solid rgba(0,0,0,0.1);
+border-radius: 10px;
+overflow: hidden;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+#edm174 .vid {
+  float: left;
+  padding: 2%;
+  width: 45%;
+}
+#edm174 .col-3{
+    float: left;
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+/*--------------------------------------------------------------------
+ 以下是EDM 固定樣式  780px
+--------------------------------------------------------------------*/
+@media only screen and (max-width: 810px) {
+    
+    #edm174 .WeSuccess{
+    margin:50px 0 0 0;
+}
+
+  #edm174  .block-gift .col-right{
+    width: calc(85% );
+    margin:10px auto 10px 15px;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+#edm174 article h1 p {
+	font-size: 25px;
+	text-align: left;
+}
+#edm174 article h2 {
+    margin-top: 30px;
+}
+#edm174 article h2 > .span_font {
+    font-size: 20px;
+	padding-left: 0;
+    margin-top: 10px;
+    display: inline-block;
+}
+#edm174 article h2 .h2_dorber {
+	display: block;
+}
+#edm174 article hr {
+    margin-top: 30px;
+}
+  #edm174 .oneColWrap {
+    margin: 10px;
+    margin: 0;
+}  
+    
+#edm174 .twoColWrap {
+    padding: 10px;
+    margin: 15px 0 0 0 ;
+}
+    
+
+
+#edm174 .col_te_l {
+    float: none;
+    width: auto;
+    clear: both;
+margin: 10px 0px 0px -20px;
+}
+#edm174 .col_te_r {
+    float: none;
+    width: auto;
+    clear: both;
+    margin: 20px 0px 0px 0px;
+}
+
+#edm174 .col_pic_l {
+    left: 2px;
+    float: none;
+    width: auto;
+    clear: both;
+    margin: 0 -15px 40px;
+}
+    
+#edm174 .col_pic_r {
+    left: 2px;
+    float: none;
+    width: auto;
+    clear: both;
+    margin: 0 -15px 40px;
+}
+    
+
+    
+    
+#edm174 .film {
+	width:80%;
+	margin:15px auto 0;
+}
+#edm174 .banner .col_pic_r{
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    top:-40px;
+    text-align: center;
+}
+#edm174 .banner .col_pic_l{
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+#edm174 .f70{
+    font-size: 60px;
+}
+    
+    #edm174 .f40{
+    font-size: 350px;
+}
+
+/*--------------------------------------------------------------------
+以下是屬於 edm174  780px
+--------------------------------------------------------------------*/
+
+    
+#edm174 .deskver{
+    display: none;
+    }
+#edm174 .mobver{
+    display:inline-table;
+    }
+    
+#edm174 .innerLi {
+	margin-top: 15px;
+    width: 60%;
+    margin: 0 auto;
+	float:none;
+}
+
+#edm174 article h2 .h2_dorber {
+	width: 195px;
+}
+#edm174 article .h3_f18, #edm174 article ol {
+	font-size: 16px;
+}
+#edm174 article h2 .h2_dorber2 p {
+	font-size: 25px;
+	text-align: left;
+	width: 100%;
+}
+#edm174 article .h3_font2 {
+    padding-top: 15px;
+}
+#edm174 article .h3_font2 span {
+	display: inline-block;
+	margin-left: 10px;
+}
+#edm174 .f18 {
+    font-size: 100%;
+}
+#edm174 .f20 {
+    font-size: 108%;
+}
+#edm174 .f25 {
+    font-size: 136%;
+}
+#edm174 .f26 {
+    font-size: 150%;
+}
+#edm174 .f30 {
+    font-size: 172%;
+}
+
+#edm174 .f36 {
+	font-size: 200%;
+}
+
+    
+#edm174 .mt10 {
+    margin-top: 10px;
+}
+    
+    
+#edm174 .mt20 {
+    margin-top: 20px;
+}
+    
+#edm174 .mt30 {
+    margin-top: 15px;
+}
+    
+#edm174 .block4 {
+    margin: 30px 0;
+}
+#edm174 .block2 li {
+   float: none;
+   width: 100%;
+}
+
+#edm174 .block1 li {
+   float: none;
+   width: 100%;
+}
+
+#edm174 .block2 li:first-child .innerLi {
+    margin-top: 0px;
+}
+
+#edm174 big_pic_banner {
+	font-size: 25px;
+}
+
+#edm174 big_pic_h1 {
+	right: 100px;
+}
+#edm174 .banner hr{
+    margin-top:-80px;
+    width: 75%;
+}
+#edm174 .two-col-nofloat{
+    width: 100%;
+    float: none;
+}
+#edm174 .block1 #onetable td{
+    display: block;
+    }
+
+/*
+#edm174 .block1 #third-table th{
+    width: 10%;
+}
+*/
+#edm174 .block1 #third-table td{
+    width: 100%;
+
+}
+
+
+/*#edm174 .block2 .innerLi {
+	text-align: left;
+    margin-top: 10px;
+}*/
+/*#edm174 .block2 .innerLi .fa {
+    font-size: 108%;
+    margin-bottom: 0px;
+	transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}*/
+/*#edm174 .block2 li p {
+   display: inline-block;
+}
+#edm174 .block2 li span {
+   padding-left: 9px;
+}*/
+#edm174 .p-bk-or{
+    width: 90%;
+    margin: 10px auto;
+}
+    
+#edm174  .col-3{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    float: none;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 560px) {
+    
+
+#edm174 .block1 .table1 p {
+    font-size:80%;
+    }    
+
+#edm174 .col-4 {
+    padding: 40px 0px 30px 0px;
+}
+    
+    #edm174 .tw-img-win {
+width:60%;
+}
+    
+    #edm174 .block1 p {
+
+}
+    #edm174 .tit-con h2 {
+    font-size: 30px;
+            width: 90%;
+}
+    
+    #edm174 .BigTitle h1 {
+    font-size: 200%;
+        width: 90%;
+}
+    #edm174 .BigTitle img {
+    width: 70px;
+}
+    
+    #edm174 .gb_col_pic_l {
+    float: none;
+    width: auto;
+    clear: both;
+    margin: 40px 40px 20px;
+}    
+    
+ #edm174 .gb_col_pic_r {
+    float: none;
+    width: auto;
+    clear: both;
+    margin: 40px 40px 20px;
+
+}   
+   
+        #edm174 .col-4 .col {
+    width: 48%;
+    float: left;
+        margin:10px 0 20px 0;
+}
+    
+#edm174 .f36 {
+	font-size: 150%;
+}
+#edm174 .reason-box{
+    width: 80%;
+    margin: 15px 10%;
+    float: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0 solid;
+    border-radius: 6px;
+    padding: 25px 0;
+    color: #333;
+}
+    
+    
+    table tr th,{
+            padding: 0px;
+    }
+}
